@@ -1,0 +1,278 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url(../images/pattern.png);
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+#navbar {
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 0;
+	background-color: #ffffff;
+	width: 100%;
+	height: 60px;
+	padding: 20px;
+	border-bottom: 2px solid #cccccc;
+	text-align: center;
+
+}
+
+#navpages {
+	font-size: 20px;
+	color: #cccccc;
+	margin-left: 535px;
+}
+
+#navlinks {
+	color: #cccccc;
+}
+
+#logo {
+	position: absolute;
+	bottom: 0;
+	background-color: #4aaaa5;
+	padding: 20px;
+	margin-left: 140px;
+	width: 220px;
+	height: 60px;
+}
+
+#name {
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 30px;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-size: 22px;
+	text-align: center;
+}
+
+#container{
+}
+
+hr {
+	border: 1px solid #dddddd;
+}
+
+#aboutme {
+	background-color: #ffffff;
+	float: left;
+	width: 650px;
+	margin: 40px 40px 40px 160px;
+	padding: 20px;
+	border: 1px solid #dddddd;
+}
+
+#about-title {
+	font-size: 25px;
+	text-align: left;
+}
+
+p {
+	margin-top: 20px;
+	color: #777777;
+	line-height: 28px;
+}
+
+#profile {
+	height: 120px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#connect {
+	background-color: #ffffff;
+	float: left;
+	height: 150px;
+	width: 270px;
+	margin-top: 40px;
+	padding: 15px;
+	border: 1px solid #dddddd;
+}
+
+#contact-title {
+	font-size: 25px;
+	text-align: left;
+}
+
+#github,
+#linkedin,
+#stackoverflow {
+	height: 60px;
+	margin-top: 10px;
+}
+
+#github {
+	margin-left: 35px;
+}
+
+#linkedin {
+	margin-left: 5px;
+}
+
+#stackoverflow {
+	margin-left: 5px;
+}
+
+.sticky-footer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    height: 60px;
+    background-color: #666666;
+    border-top: 6px solid #4aaaa5;
+    text-align: center;
+    color: lightgrey;
+    padding: 20px;
+    line-height: 40px;
+}
+
+/*start contact*/
+
+#contact {
+	background-color: #ffffff;
+	float: left;
+	width: 650px;
+	margin: 40px 40px 40px 160px;
+	padding: 20px;
+	border: 1px solid #dddddd;
+}
+
+#name2,
+#email,
+#message {
+	text-align: left;
+	color: #aaaaaa;
+	line-height: 10px;
+
+}
+
+#entername,
+#enteremail,
+#entermessage {
+	width: 100%;
+}
+
+#entermessage {
+	height: 150px;
+}
+
+input::placeholder {
+	color: #bbbbbb;
+}
+
+#submit {
+	color: white;
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 5px;
+	width: 80px;
+}
+
+/*start portfolio*/
+
+.portfolio-image {
+	height: 212px;
+	width: 280px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.labels {
+	color: white;
+	position: absolute;
+	height: 900px;
+	width: 650px;
+	margin: 40px 40px 40px 160px;
+	padding: 20px;
+	text-align: center;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	line-height: 50px;
+	font-size: 20px;
+}
+
+#label-1{
+	background-color: #4aaaa5;
+	position: absolute;
+	height: 60px;
+	width: 280px;
+	top: 27%;
+	left: .2%;
+}
+
+#label-2 {
+	background-color: #4aaaa5;
+	position: absolute;
+	height: 60px;
+	width: 280px;
+	right: 50%;
+	top: 27%;
+	right: 1.2%;
+}
+
+#label-3 {
+	background-color: #4aaaa5;
+	position: absolute;
+	height: 60px;
+	width: 280px;
+	top: 56%;
+	left: .2%;
+}
+
+#label-4 {
+	background-color: #4aaaa5;
+	position: absolute;
+	height: 60px;
+	width: 280px;
+	top: 56%;
+	right: 1.2%;
+}
+
+#label-5 {
+	background-color: #4aaaa5;
+	position: absolute;
+	height: 60px;
+	width: 280px;
+	top: 85%;
+	left: .2%;
+}
+
+#label-6 {
+	background-color: #4aaaa5;
+	position: absolute;
+	height: 60px;
+	width: 280px;
+	top: 85%;
+	right: 1.2%;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: hotpink;
+}
